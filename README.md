@@ -1,8 +1,12 @@
 url_shortener
 =============
 
-shorten.py is a script to bulk shorten the urls using tinyurl.com
+tinyurl.py: script to bulk shorten the urls using http://www.tinyurl.com/
+
+isgd.py: script to bulk shorten the urls using http://is.gd/
 
 usage::
 
-    $./shorten.py [link1] [link2] [linkx]
+    $./tinyurl.py [link1] [link2] [linkx]
+
+    $./isgd.py [link1] [link2] [linkx]
