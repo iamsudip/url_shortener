@@ -5,6 +5,8 @@ import sys
 from re import findall
 
 site_url = 'http://is.gd/'
+# Uncomment the next line for http://v.gd
+# site_url = 'http://v.gd/'
 
 def shortener(urls):
     for url in urls:
